@@ -37,4 +37,5 @@ public class GameEntity {
     public void setDamage(int damage) {
         this.damage = damage;
     }
+    public String printInfo(){return name+ " - " +health+ "hp " +damage+"dd способность -  "+power;}
 }

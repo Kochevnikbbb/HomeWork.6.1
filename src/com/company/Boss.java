@@ -10,4 +10,6 @@ public class Boss extends GameEntity {
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
+    public String printInfo(){return super.printInfo()+ " Тип оружия - " + weapon.getType();}
+
 }
